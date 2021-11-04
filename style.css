@@ -1,0 +1,207 @@
+/* #777;
+	#fff;
+	#000;
+	#333;
+	 #eee;
+	 #999; 
+	#55c57a;
+	 #7ed56f;
+	#28b485;
+	#ffb900;
+	 #ff7730;
+	
+	 #2998ff;
+	#5643fa;
+	 
+	 */
+     *,
+     *::after 
+     *::before {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     
+     }
+     html {
+         font-size: 62.5%; /*font-size 1em = 10px on default browser settings*/
+         min-height: 100%;
+         background: linear-gradient(to right bottom, rgba(221, 219, 219, 0.97), rgba(228, 228, 228, 0.97)), url(./img/img\ 3.jpeg);
+         background-size: contain;
+         background-position: center center;
+         background-attachment: fixed;     
+     }
+     body {
+         box-sizing: border-box;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 1.8rem;
+         margin: 0;
+     }
+    
+     #header {
+         background-color: #eee;
+         position: fixed;
+         top: 0;
+         left: 0;
+         right: 0; 
+     }
+     .header-content {
+        display: flex;  
+        justify-content: space-between;       
+         align-items: center;
+         flex-wrap: wrap;
+     }
+     #header-img {
+         height: 35px;
+         width: 300px;
+         padding: 1.5rem;
+
+     }
+     
+     .nav-ul {
+         display: flex;
+         list-style: none;
+     }
+     .nav-link {
+        padding: 2rem 4rem;
+        margin-right: 4rem;
+        text-decoration: none;
+        color: #333;
+     }
+     @media only screen and (max-width: 600px) {
+        
+        [class*= "nav-ul"] {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+    
+    }
+       
+     #form-container {
+         text-align: center;
+     }
+     .form-header {
+         margin-top: 13rem;
+         font-size: 3.2rem;
+         color: #333;
+         margin-bottom: 1rem;
+     }
+    #email {
+        width: 20%;
+        padding: .8rem;
+    }  
+    #submit {
+        background-color: #ebaf0b;
+        border-style: none;
+        border-radius: 3px;
+        padding: .8rem 1.8rem;
+        margin-top: 1rem;
+        font-weight: 700;
+        font-size: 1.8rem;
+        color: #333;
+    } 
+    #submit:hover {
+        background-color: #c09214;
+    }
+
+    #features {
+        text-align: center;
+        margin-top: 7rem;   
+    }
+   
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .fa-2x {
+        display: flex;
+        padding: 0 10rem;
+        
+    }
+
+    .our-features  {
+        text-align: left; 
+        margin-top: .1rem;  
+    } 
+    .feature-heading {
+        color: rgb(14, 13, 13);
+        margin-bottom: 0;
+        text-align: left; 
+    }
+    .feature-para {
+        margin-top: 0;
+        font-size: 1.9rem; 
+        text-align: left;
+    }  
+    
+   #video {
+       display: block;
+       margin: 0 auto;
+       padding: 3rem;
+   }
+
+
+    #pricing {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 4rem;
+        margin-top: 7rem;
+        text-align: center;
+         
+    }
+    .pricing-container {
+        height: 320px;
+        width: 290px;
+        border: 2px solid #333;   
+    }
+    .pricing-header {
+        padding: 2rem;
+        background-color: #e79a27;;
+        color: #000;
+        margin-top: 0;
+    }
+    .dollar {
+        font-weight: 700;
+        font-size: 2.7rem;
+    }
+    .pricing-para {
+        line-height: 1.5;
+        font-size: 1.8rem;
+    }
+    .btn {
+        padding: 1rem 2.5rem;
+        background-color: #e79a27;
+        color: #000;
+        border-style: none;
+        border-radius: .5rem;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+    .btn:hover {
+        background-color: #9c6410;
+    }
+    #footer {
+        background-color: rgb(209, 207, 207);
+        display: block;
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 0;
+        text-align: right;
+        padding: .5rem; 
+        margin-top: 3rem;
+    }
+    
+    .footer-link a {
+        margin: 2rem 2rem 0 0;
+        text-decoration: none;
+        color: rgb(31, 30, 30); 
+    }
+    #footer p {
+        margin-top: .5rem;
+    }
+
+         
